@@ -9,8 +9,8 @@ from flask_talisman import Talisman
 
 
 app = Flask(__name__)
-Talisman(app)
-cors = CORS(app)
+# Talisman(app)
+# cors = CORS(app)
 
 
 def require_api_key(view_function):
