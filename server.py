@@ -24,7 +24,7 @@ def require_api_key(view_function):
     return decorated_function
 
 
-@app.route('/authed_users', methods=['GET'])
+@app.route('/crm-email-tool/authorized_users', methods=['GET'])
 @require_api_key
 def get_users():
     if request.method == 'GET':
